@@ -63,3 +63,12 @@
 #ex08 .recipe:hover {
   filter: drop-shadow(0 0 5px #000);
 }
+
+#ex09 .recipe-header {
+  background-color: #fff;
+  transition: transform 0.3s;
+}
+
+#ex09 .recipe:hover .recipe-header {
+  transform: translateY(-40px);
+}
