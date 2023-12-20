@@ -72,3 +72,18 @@
 #ex09 .recipe:hover .recipe-header {
   transform: translateY(-40px);
 }
+
+#ex10 .recipe-image-wrapper {
+  height: 250px;
+  width: 416px;
+  overflow: hidden;
+}
+
+#ex10 .recipe-image:nth-child(2) {
+  transform: translate(-416px, -250px);
+  transition: transform 0.5s;
+}
+
+#ex10 .recipe:hover .recipe-image:nth-child(2) {
+  transform: translate(0, -250px);
+}
