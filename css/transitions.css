@@ -55,3 +55,11 @@
 #ex07 .recipe:not(:hover) .recipe-title {
   transition: padding-bottom 0.3s 0.3s, transform 0.3s;
 }
+
+#ex08 .recipe {
+  transition: filter 0.3s;
+}
+
+#ex08 .recipe:hover {
+  filter: drop-shadow(0 0 5px #000);
+}
