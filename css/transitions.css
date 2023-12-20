@@ -29,3 +29,11 @@
 #ex04 .recipe:hover .recipe-title {
   transform: translateX(20px);
 }
+
+#ex05 .recipe-title {
+  transition: transform 0.3s 0.3s;
+}
+
+#ex05 .recipe:hover .recipe-title {
+  transform: translateX(20px);
+}
