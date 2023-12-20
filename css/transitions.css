@@ -37,3 +37,11 @@
 #ex05 .recipe:hover .recipe-title {
   transform: translateX(20px);
 }
+
+#ex06 .recipe-title {
+  transition: padding-bottom 0.3s;
+}
+
+#ex06 .recipe:hover .recipe-title {
+  padding-bottom: 25px;
+}
