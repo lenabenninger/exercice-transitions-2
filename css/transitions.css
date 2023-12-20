@@ -45,3 +45,13 @@
 #ex06 .recipe:hover .recipe-title {
   padding-bottom: 25px;
 }
+
+#ex07 .recipe:hover .recipe-title {
+  transition: padding-bottom 0.3s, transform 0.3s 0.3s;
+  padding-bottom: 25px;
+  transform: translateY(25px);
+}
+
+#ex07 .recipe:not(:hover) .recipe-title {
+  transition: padding-bottom 0.3s 0.3s, transform 0.3s;
+}
