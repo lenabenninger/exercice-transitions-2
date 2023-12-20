@@ -5,3 +5,11 @@
 #ex01 .recipe:hover {
   transform: scale(1.1);
 }
+
+#ex02 img {
+  transition: transform 0.3s;
+}
+
+#ex02 .recipe:hover img {
+  transform: rotate(5deg);
+}
