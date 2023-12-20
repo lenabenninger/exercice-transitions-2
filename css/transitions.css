@@ -13,3 +13,11 @@
 #ex02 .recipe:hover img {
   transform: rotate(5deg);
 }
+
+#ex03 img {
+  transition: opacity 0.3s;
+}
+
+#ex03 .recipe:hover img {
+  opacity: 60%;
+}
